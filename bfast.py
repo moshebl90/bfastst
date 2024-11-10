@@ -3,6 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 st.title("Automated Discounts Impact Dashboard")
+logo_url = "https://www.breadfast.com/wp-content/themes/breadfast/website/images/breadfast-brand.svg"  # Replace with the actual logo URL
+st.sidebar.image(logo_url, use_column_width=True)
 st.sidebar.header("Dashboard Filters")
 
 
